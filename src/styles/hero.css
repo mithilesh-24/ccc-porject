@@ -13,7 +13,7 @@
   padding-bottom: 250px;
 }
 
-/* This creates the greenish overlay */
+
 .hero-section::before {
   content: '';
   position: absolute;
@@ -24,14 +24,14 @@
   z-index: 1;
 }
 
-/* Ensure all content is above the overlay */
+
 .hero-content, .side-nav, .site-header {
   position: relative;
   z-index: 2;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 20px;
 }
 
@@ -88,7 +88,7 @@
   color: #fff;
 }
 
-/* Side navigation numbers */
+
 .side-nav {
   position: absolute;
   top: 50%;

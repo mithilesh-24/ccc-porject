@@ -1,13 +1,11 @@
-import React, { useState } from 'react'; // <-- 1. Import useState
+import React, { useState } from 'react'; 
 import Header from './Header';
 import '../styles/hero.css';
 
-// 2. Import all the background images you need
 import slide1Image from '../assets/home_image.png';
 import slide2Image from '../assets/home_image.png';
 import slide3Image from '../assets/home_image.png';
 
-// 3. Create an array to hold the data for each slide
 const heroData = [
   {
     image: slide1Image,
