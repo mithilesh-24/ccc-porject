@@ -4,7 +4,7 @@ import '../styles/hero.css';
 
 import slide1Image from '../assets/home_image.png';
 import slide2Image from '../assets/home_image.png';
-import slide3Image from '../assets/home_image.png';
+import slide3Image from '../assets/Feature_image.png';
 
 const heroData = [
   {
@@ -38,9 +38,10 @@ export default function Hero() {
       <Header />
       
       <div className="hero-content">
-        <h1>{currentSlide.heading}</h1>
-        <p>{currentSlide.text}</p>
-
+        <div key={activeSlide} className="hero-inner">
+          <h1>{currentSlide.heading}</h1>
+          <p>{currentSlide.text}</p>
+      </div>
         <div className="hero-buttons">
           <button className="book-now-btn">Book Now</button>
           <button className="watch-video-btn">
@@ -57,7 +58,8 @@ export default function Hero() {
           <span
             key={index}
             className={activeSlide === index ? 'active' : ''}
-            onClick={() => setActiveSlide(index)}
+            onClick={() => {
+              return setActiveSlide(index)}}
           >
             0{index + 1}
           </span>
