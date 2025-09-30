@@ -12,6 +12,7 @@
   color: white;
   padding-bottom: 250px;
   transition: background-image 0.8s ease;
+  margin-top: 0;
 }
 
 
@@ -136,4 +137,87 @@
   width: 15px;
   height: 2px;
   background-color: #3a4b40;
+}
+/* Tablet adjustments */
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    max-width: 80%;
+  }
+
+  .book-now-btn, .watch-video-btn {
+    padding: 12px 28px;
+    font-size: 15px;
+  }
+
+  .side-nav {
+    right: 20px;
+    gap: 15px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-bottom: 150px;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    padding: 10px;
+    position: relative; /* avoid overlap */
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    margin: 15px 0 25px;
+  }
+
+  .hero-buttons {
+    flex-direction: column; /* stack buttons */
+    gap: 15px;
+  }
+
+  .side-nav {
+    position: static; /* move below content */
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .side-nav span {
+    padding-left: 0;
+  }
+
+  .side-nav span.active::before {
+    display: none;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 13px;
+  }
+
+  .book-now-btn, .watch-video-btn {
+    width: 100%; /* full width buttons */
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }

@@ -70,3 +70,72 @@
   background-color: #3a6b4b;
   color: #fff;
 }
+/* Tablet adjustments */
+@media (max-width: 992px) {
+  .logo {
+    font-size: 22px;
+    padding-left: 20px;
+  }
+
+  .right-side {
+    gap: 20px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .call-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: none; /* Hide default links */
+    flex-direction: column;
+    background-color: #3a4b40;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .nav-links.show {
+    display: flex; /* Toggle this class via JS for hamburger menu */
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+  }
+
+  .call-btn {
+    padding: 6px 15px;
+    font-size: 13px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .call-btn {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+}
