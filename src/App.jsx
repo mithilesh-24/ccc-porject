@@ -7,6 +7,8 @@ import Product from './components/product';
 import FeaturesSection from './components/FeaturesSection';
 import Gallery from  './components/GallerySection';
 import TestimonialsAndBlog from './components/TestimonialsAndBlog';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,7 @@ function App() {
       <FeaturesSection />
       <Gallery />
       <TestimonialsAndBlog />
+      <Footer />
     </div>
   );
 }

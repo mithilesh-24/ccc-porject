@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/TestimonialsAndBlog.css"; // Import the CSS file
+import img1 from '../assets/Blog_!.png'
+import img2 from '../assets/Blog_2.png'
+import img3 from '../assets/Blog_3.png'
 
 const testimonials = [
   {
@@ -27,21 +30,21 @@ const testimonials = [
 
 const blogPosts = [
   {
-    imageUrl: "https://placehold.co/400x250/a2b2a6/FFFFFF?text=Workspace",
+    imageUrl: img1,
     title: "More productive with an atmosphere of greenery",
     excerpt:
       "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
     date: "January 20, 2023",
   },
   {
-    imageUrl: "https://placehold.co/400x250/cad2c5/FFFFFF?text=Bedroom",
+    imageUrl: img2,
     title: "The benefits of plants in your room",
     excerpt:
       "Plants in your room can bring numerous benefits, such as improved air quality, reduced stress, and increased feelings of well-being...",
     date: "January 10, 2023",
   },
   {
-    imageUrl: "https://placehold.co/400x250/b2a6a2/FFFFFF?text=Hobbyist",
+    imageUrl: img3,
     title: "Hobbyist plants in the house",
     excerpt:
       "Having hobbyist plants in the house is a great way to bring nature indoors. Not only do they purify the air, but they...",
