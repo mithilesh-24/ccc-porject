@@ -4,7 +4,7 @@ import img1 from "../assets/Quality_Product_logo_1.png";
 import img2 from "../assets/Grow_Sprout_logo.png";
 import img3 from "../assets/Temperature_logo.png";
 import img4 from "../assets/Pruning_logo.png";
-import mainimg from "../assets/Feature_Image.png";
+import mainimg from "../assets/Feature_image.png";
 const mainImageUrl = mainimg;
 
 function FeaturesSection() {
