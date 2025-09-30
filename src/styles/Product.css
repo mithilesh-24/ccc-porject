@@ -119,10 +119,9 @@
   cursor: pointer;
 }
 
-/* When heart is active → Buy button green */
 .buy-btn.fav-active {
   transition: 0.3s;
-    color: white;
+  color: white;
   background: green;
   cursor: pointer;
 }

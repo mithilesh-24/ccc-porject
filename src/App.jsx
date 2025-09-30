@@ -5,6 +5,8 @@ import ServiceCard from './components/ServiceCard';
 import './components/product';
 import Product from './components/product';
 import FeaturesSection from './components/FeaturesSection';
+import Gallery from  './components/GallerySection';
+import TestimonialsAndBlog from './components/TestimonialsAndBlog';
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,8 @@ function App() {
       <ServiceCard />
       <Product />
       <FeaturesSection />
+      <Gallery />
+      <TestimonialsAndBlog />
     </div>
   );
 }
