@@ -172,3 +172,30 @@
 .blog-read-more:hover {
   color: #1e3e2d;
 }
+/* -------- Responsive Breakpoints -------- */
+@media (min-width: 600px) {
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog-image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonial-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+}
