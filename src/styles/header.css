@@ -2,17 +2,17 @@
     background-image: url('../assets/home_image.png');
     margin: 0;
     height: 600px;
-    background-image: cover;
     background-position: center;
 }
 .hero{
     margin: 0;
     display: flex;
     align-items: center;
-    width: 100%;
+    font-size: large;
+    padding-top: 5px;
 }
 .hero img{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .navlink{
     display: flex;
@@ -25,30 +25,73 @@
     color : white;
     padding: 20px;
 }
-.navlink .navbut{
-    height: 5px;
-    padding: 20px;
-    margin-top: 5px;
-    align-items: center;
-}
 .navbut{
     text-decoration: none;
-    color: white;
-    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1.5px solid rgb(255, 255, 255);
     border-radius: 10px;
+    padding:20px;
+}
+.navbut a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 .navbut:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(25, 191, 10);
+    color: white;
     transition: 0.3s;
 }
 .nav:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(73, 77, 73);
     transition: 0.3s;
-    text-decoration: underline;
 }
 .textcontent{
     color: white;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 170px;
+}
+.textcontent h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.textcontent p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.but{
+    padding: 20px;
+    display: flex;
+    justify-content: center;   
+    gap:10px;
+}
+.but1{
+    padding: 10px 20px;
+    background-color:green;
+    font-weight: 700;
+    border:none;
+    border-radius: 2px;
+    color: white;
+    transition: transform 0.3s;
+}
+.but1:hover{
+    background-color: rgb(3, 158, 3);
+    transform: scale(1.1);
+}
+.but2{
+   padding: 10px 20px;
+   background-color:transparent ;
+   border:1.5px solid white;
+   border-radius: 2px;
+   color: white;
+   font-weight: 700;
+   transition: transform 0.3s;
+}
+.but2:hover{
+    background-color: rgb(3, 158, 3);
+    transform: scale(1.1);
+    color: white;
 }
