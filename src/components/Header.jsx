@@ -1,34 +1,26 @@
-import React, { useState } from "react";
-import "../styles/header.css";
-import WebLogo from '../assets/Web_Logo.png';
+import React from "react";
+import '../styles/Header.css'
 
-export default function Header() {
-  const [active, setActive] = useState("Home");
-  const links = ["Home", "About Us", "Planters", "Contact"];
-
-  return (
-    <header className="site-header">
-      <div className="header-container">
-        <img src={WebLogo} alt="Lush Logo" className="logo" />
-
-        {/* Right-aligned nav */}
-        <div className="right-side">
-          <nav className="nav-links">
-            {links.map((link) => (
-              <a
-                key={link}
-                href="#"
-                className={active === link ? "active" : ""}
-                onClick={() => setActive(link)}
-              >
-                {link}
-              </a>
-            ))}
-          </nav>
-
-          <a href="#" className="call-btn">Call Us</a>
+function Header() {
+    return (
+        <>
+        <div className='header'>
+            <div className='hero'>
+                <img src='/Web_Logo.png' alt="Logo" className="logo"/>
+                <div className='navlink'>
+                    <a href='#' className='nav'>Home</a>
+                    <a href='#' className='nav'>About-Us</a>
+                    <a href='#' className='nav'>Services</a>
+                    <a href='#' className='nav'>Planters</a>
+                    <a href='#' className='nav'>Contact</a>
+                    <a href='#' className='navbut'>Call</a>
+                </div>
+            </div>
+            <div className='textcontent'>
+                <h1>NATURE BEAUTY</h1>
+            </div>
         </div>
-      </div>
-    </header>
-  );
+        </>
+    );
 }
+export default Header;
