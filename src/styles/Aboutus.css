@@ -35,6 +35,7 @@
 }
 .box img{
     width: 75px;
+    height: 125px;
 }
 #box{
     background-color: rgb(68, 128, 97);

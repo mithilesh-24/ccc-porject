@@ -1,0 +1,53 @@
+.featurecard{
+    display: flex;
+    margin: 30px 60px;
+    flex-flow:column wrap;
+}
+.featurecard>h1{
+    color: rgb(68, 128, 97);
+    text-align: center;
+}
+.cardbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(121, 121, 121);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.card-content{
+    display: flex;
+    padding: 10px 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+
+}
+.card-content a{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 128, 97);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s;
+}
+.card-content h3{
+    color: rgb(68, 128, 97);
+}
+.card-content a:hover{
+    transform: scale(1.1);
+}
