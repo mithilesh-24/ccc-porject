@@ -12,7 +12,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del> $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -22,7 +22,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del> $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -32,7 +32,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del>  $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -42,7 +42,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del>  $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -52,7 +52,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del>  $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -62,7 +62,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del>  $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -72,7 +72,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>($10)</strick> $8</p>
+                            <p><del>($10)</del>  $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
@@ -82,7 +82,7 @@ function feature(){
                     <div className='card-content'>
                         <div>
                             <h3>Cactus Plant</h3>
-                            <p><strick>$10</strick> $8</p>
+                            <p><del>($10)</del> $8</p>
                         </div>
                         <a href='#'>Buy Now</a>
                     </div>
