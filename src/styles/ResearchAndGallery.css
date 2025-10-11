@@ -1,0 +1,33 @@
+.research{
+    display: flex;
+    justify-content: space-between;
+}
+.research>img{
+    width: 49%;
+}
+.research-content{
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+.research-card{
+    width: 49%;
+    height: 50%;
+    box-shadow: 1px 1px 5px rgb(177, 177, 177);
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+}
+#card{
+    background-color: rgb(238, 238, 238);
+}
+.research-card >img{
+    height: 30%;
+}
+.research-card >h3{
+    color: rgb(68,127,98);
+    font-style: oblique;
+    font-weight: bolder;
+}
+
