@@ -1,0 +1,45 @@
+.div1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    margin: 10px;
+
+}
+.textbox1{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 100px;
+}
+.design{
+    color: rgb(68, 128, 97);
+    font-family:sans-serif ;
+}
+.textbox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    transition: transform 0.5s;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 5px 5px 20px rgb(159, 158, 158);
+    
+
+}
+.textbox2 > .box:hover{
+    transform: scale(1.05);
+}
+.box img{
+    width: 75px;
+}
+#box{
+    background-color: rgb(68, 128, 97);
+    color: white;
+}
+

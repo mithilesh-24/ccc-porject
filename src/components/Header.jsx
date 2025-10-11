@@ -1,4 +1,3 @@
-import React from "react";
 import '../styles/Header.css'
 
 function Header() {
@@ -18,7 +17,7 @@ function Header() {
             </div>
             <div className='textcontent'>
                 <h1>Nature's Beauty Delivered to You</h1>
-                <p>Nature's beauty is just a click away with our online flower and plant shop. We offer a<br/>wide variet of flower that will a touch of nature to your home!</p>
+                <p>Nature's beauty is just a click away with our online flower and plant shop. We offer a<br/>wide variety of flowers that will add a touch of nature to your home</p>
                 <div className='but'>
                     <button className='but1'>Book now</button>
                     <button className='but2'>Watch Video</button>

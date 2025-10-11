@@ -1,8 +1,9 @@
 .header{
     background-image: url('../assets/home_image.png');
     margin: 0;
-    height: 600px;
-    background-position: center;
+    background-size: cover;
+    height: 100%;
+
 }
 .hero{
     margin: 0;
@@ -66,11 +67,11 @@
     padding: 20px;
     display: flex;
     justify-content: center;   
-    gap:10px;
+    gap: 10px;
 }
 .but1{
-    padding: 10px 20px;
-    background-color:green;
+    padding: 10px 30px;
+    background-color:rgb(68, 128, 97);
     font-weight: 700;
     border:none;
     border-radius: 2px;
