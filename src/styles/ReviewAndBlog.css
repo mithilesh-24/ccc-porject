@@ -1,0 +1,84 @@
+.review{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.review h1{
+    color: rgb(68, 127, 98);
+    text-align: center;
+}
+.review-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.review-card{
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgb(160, 160, 160);
+    border-radius: 5px;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+    background-image: url('./Type_2.png');
+    background-position: bottom right;
+    background-repeat: no-repeat; 
+    transition: transform 0.3s;
+}
+.review-card:hover{
+    transform: scale(1.05);
+}
+.card-top{
+    display: flex;
+    gap: 20px;
+}
+.card-top>img{
+    width: 50px;
+    height: 50px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.blog >h1{
+    text-align: center;
+    color: rgb(68, 127, 98);
+}
+.blog-content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.blog-card{
+    width: 350px;
+    height: 450px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgb(242, 242, 242);
+    transition: transform 0.3s;
+}
+.blog-card:hover{
+    transform: scale(1.05);
+}
+.blog-card > img{
+    width: 350px;
+    height: 50%;
+}
+.blog-card-content{
+    padding: 10px;
+    font-style: oblique;
+}
+.blog-card-content > h3{
+    color: rgb(68, 127, 98);
+}
+.blog-card-bottom{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-card-bottom a{
+    color: rgb(68, 127, 98);
+    text-decoration: none;
+}

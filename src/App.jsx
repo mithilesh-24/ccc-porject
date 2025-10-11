@@ -3,6 +3,7 @@ import Header from './components/Header.jsx';
 import About  from './components/Aboutus.jsx';
 import Feature from './components/Featurecard.jsx';
 import ResearchAndGallery from './components/ResearchAndGallery.jsx';
+import ReviewAndBlog from './components/ReviewAndBlog.jsx';
 import './index.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Feature />
       <ResearchAndGallery />
+      <ReviewAndBlog />
     </div>
   );
 }
