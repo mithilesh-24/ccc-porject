@@ -26,7 +26,10 @@ function aboutus(){
                 <div className='box' id='box'>
                     <img src='./Type_2.png'/>
                     <h2>Outdoor Plants</h2>
-                    <p>Bring a touch of greenery to your<br/>living spaces with our collection of<br/>indoor plants, erfect for purifying<br/>the air and adding a natural touch<br/>to your home.</p>
+                    <p>
+                    Bring a touch of greenery to your<br/>living spaces with our collection of
+                    <br/>indoor plants, erfect for purifying<br/>the air and adding a natural touch
+                    <br/>to your home.</p>
                 </div>
                 <div className='box'>
                     <img src='./Type_3.png'/>

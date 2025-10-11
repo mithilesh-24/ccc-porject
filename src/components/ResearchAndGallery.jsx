@@ -31,7 +31,16 @@ function ResearchAndGallery(){
             </div>
         </div>
         <div className='gallery'>
-            
+            <h1>Our Gallery View</h1>
+            <div className='gallery-content'>
+                <img src='./Gallery_1.png' className='gallery-left' />
+                <div className='gallery-right'>
+                    <img src='./Gallery_2.png' />
+                    <img src='./Gallery_3.png' />
+                    <img src='./Gallery_4.png' />
+                    <img src='./Gallery_5.png' />
+                </div>
+            </div>
         </div>
         </>
     );

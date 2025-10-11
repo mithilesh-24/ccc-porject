@@ -30,4 +30,32 @@
     font-style: oblique;
     font-weight: bolder;
 }
-
+.gallery{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.gallery h1{
+    text-align: center;
+    color: rgb(68,127,98);
+}
+.gallery-content{
+    display: flex;
+    flex-direction: row;
+}
+.gallery-left{
+    width: 40%;
+}
+.gallery-right{
+    width: 59%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallery-right img{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+}
