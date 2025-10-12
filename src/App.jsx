@@ -4,6 +4,7 @@ import About  from './components/Aboutus.jsx';
 import Feature from './components/Featurecard.jsx';
 import ResearchAndGallery from './components/ResearchAndGallery.jsx';
 import ReviewAndBlog from './components/ReviewAndBlog.jsx';
+import Footer from './components/Footer.jsx';
 import './index.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Feature />
       <ResearchAndGallery />
       <ReviewAndBlog />
+      <Footer />
     </div>
   );
 }

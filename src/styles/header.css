@@ -38,7 +38,7 @@
     color: rgb(255, 255, 255);
 }
 .navbut:hover{
-    background-color: rgb(25, 191, 10);
+    background-color: rgb(68,127,98);
     color: white;
     transition: 0.3s;
 }
@@ -79,7 +79,6 @@
     transition: transform 0.3s;
 }
 .but1:hover{
-    background-color: rgb(3, 158, 3);
     transform: scale(1.1);
 }
 .but2{
@@ -92,7 +91,7 @@
    transition: transform 0.3s;
 }
 .but2:hover{
-    background-color: rgb(3, 158, 3);
+    background-color: rgb(68,127,98);
     transform: scale(1.1);
     color: white;
 }

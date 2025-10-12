@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 129, 98);
+    justify-content: center;
+    align-items: center;
+}
+.footer>h1{
+    text-align: center;
+    color: white;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 20px;
+}
+.footer-icon img{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+.footer-icon img:hover{
+    transform: scale(1.1);
+}
+.footer-link{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.footer-link-nav{
+    text-decoration: none;
+    color: white;    
+}
+.footer-link-nav:hover{
+    color: black;
+}
+.footer-copyrights{
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-copyrights p{
+    text-align: center;
+    color: white;
+}
