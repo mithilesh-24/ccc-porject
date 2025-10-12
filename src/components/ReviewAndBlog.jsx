@@ -35,7 +35,7 @@ function ReviewAndBlog(){
                 <div className='blog-card'>
                     <img src='./Blog_1.png' />
                     <div className='blog-card-content'>
-                        <h3>More productiv with an atmosphere</h3>
+                        <h3>More productiv with an atmosphere to greeney</h3>
                         <p>An Atmosphere of greeney can increase productivity in the workspace. Studies show that plants improve air quality and decrease stress...</p>
                     </div>
                     <div className='blog-card-bottom'>
