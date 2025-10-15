@@ -5,7 +5,7 @@ function Header() {
         <>
         <div className='header'>
             <div className='hero'>
-                <img src='/Web_Logo.png' alt="Logo" className="logo"/>
+                <img src='/Web_Logo.png' className="logo"/>
                 <div className='navlink'>
                     <a href='#' className='nav'>Home</a>
                     <a href='#' className='nav'>About-Us</a>
